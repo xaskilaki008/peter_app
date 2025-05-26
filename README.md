@@ -59,3 +59,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```
+открываешь проект, пишешь
+php artisan storage:link(если ошибка, о всё ок, если прошло, то тоже ок)
+затем пишешь
+php -S 127.0.0.1:8081 -t public/
+затем заходишь на сайт http://127.0.0.1:8081/listings и всё
+```
